@@ -1,6 +1,6 @@
 # json-server-base
 
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Capstones do Q2.
+Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's.
 
 ## Endpoints
 
@@ -22,3 +22,27 @@ POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+Os usuários cadastrados na API tem autorização para inserir novos jogos ou novos filmes nas rotas que serão mostradas
+a seguir
+
+### Rotas
+
+GET - /movies
+Essa rota lista todos os filmes cadastros. Não é neessário nenhuma autorização
+
+POST - /movies 
+Você pode cadastrar um novo filme na API. É recomendado usar os seguintes campos:
+
+"name": "Nome do filme",
+"year": ano do filme,
+"userId": id do usuário que fara o post
+
+GET - /games  
+Essa rota lista todos os games cadastros. Não é neessário nenhuma autorização
+
+POST - /games
+Você pode cadastrar um novo filme na API. É recomendado usar os seguintes campos:
+"name" : "Nome do Jogo",
+"type" : "Estilo do jogo. Por exemplo: RPG",
+"userId" : id do usuário que fará o post
+
