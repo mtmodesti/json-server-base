@@ -6,6 +6,121 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "mtm@gmail.com",
+      "password": "$2a$10$7Ty7hRKB0tyMmyUxQYaRTeR7whpSvzfZO2/DNXzs9kyZJBL4E2B4S",
+      "name": "Marcelo",
+      "age": 33,
+      "id": 2
+    },
+    {
+      "email": "mtm2@gmail.com",
+      "password": "$2a$10$pGbX6D32ofDu1g5PRcNNV./pLFdkZjKKk5LheAjzKWWE1eacEwzmK",
+      "name": "Marcelo",
+      "age": 33,
+      "id": 3
+    },
+    {
+      "email": "mtm3@gmail.com",
+      "password": "$2a$10$lBp1eFhq4yaJO7f2bR2jgeJ33YmR6w6CK30kS9akDfYeEd3MOqHMC",
+      "name": "Marcelo",
+      "age": 33,
+      "id": 4
+    },
+    {
+      "email": "mtm4@gmail.com",
+      "password": "$2a$10$nkutm0Ae1G150CZvoC/dmeYosw9hDWLAGZRW.hquSVEryip2djfFS",
+      "name": "Marcelo",
+      "age": 33,
+      "id": 5
+    },
+    {
+      "email": "mtm5@gmail.com",
+      "password": "$2a$10$K0GG2qjPdbj3YJjqHT4bduYm/JTwqmAhNRDFGsTEZx0aKLpaTIJvi",
+      "name": "Marcelo",
+      "age": 33,
+      "id": 6
+    },
+    {
+      "email": "mtm6@gmail.com",
+      "password": "$2a$10$5TX9H7UbToxRj0SFNVr9B.5hvjF7mF4btuTA143yXqcqVfgBQLpkS",
+      "name": "Marcelo",
+      "age": 33,
+      "id": 7
+    },
+    {
+      "email": "mtm7@gmail.com",
+      "password": "$2a$10$VqdNjcH0fL/0zkHENpQKjeH8jvU10PjHvWxvAdTgM9suKIzEevcjW",
+      "name": "Marcelo",
+      "age": 33,
+      "id": 8
+    },
+    {
+      "email": "mtm9@gmail.com",
+      "password": "$2a$10$ZEIse5zowFxV7zZ6Cp26cOTf2Kdivq07kq.lYQUAo2M3Pv0gPdQHO",
+      "name": "Marcelo",
+      "age": 33,
+      "id": 9
+    },
+    {
+      "email": "mtm10@gmail.com",
+      "password": "$2a$10$gyLaZg1k9ZFOYO/EHlYyEuo4GhtWxyZ5v/krXEAfJZ3uD1AWuqV2y",
+      "name": "Marcelo",
+      "age": 33,
+      "id": 10
+    }
+  ],
+  "games": [
+    {
+      "name": "League of Legends",
+      "type": "MOBA",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "name": "Legend of Zelda. Ocarina of Time",
+      "type": "RPG",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "The Sims",
+      "type": "RPG",
+      "userId": 5,
+      "id": 3
+    },
+    {
+      "name": "SNES",
+      "type": "RPG",
+      "userId": 8,
+      "id": 4
+    },
+    {
+      "name": "Smash Bros",
+      "type": "Fight",
+      "userId": 8,
+      "id": 5
+    },
+    {
+      "name": "Candy Crush",
+      "type": "Fun",
+      "userId": 10,
+      "id": 6
+    }
+  ],
+  "movies": [
+    {
+      "name": "Avengers Endgame",
+      "year": 2019,
+      "userId": 10,
+      "id": 1
+    },
+    {
+      "name": "Don't Look  Up",
+      "year": 2019,
+      "userId": 10,
+      "id": 2
     }
   ]
 }
